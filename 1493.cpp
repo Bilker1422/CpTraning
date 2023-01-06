@@ -10,7 +10,7 @@ int main(){
     int l;
     cin >> l;
     while(l--){
-            int n ,k ;
+        int n ,k;
         cin >> n >> k;
         int list[n+1];
         int count = n;

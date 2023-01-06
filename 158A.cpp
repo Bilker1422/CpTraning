@@ -11,12 +11,13 @@ int main(){
     while(n--){
         int x;
         cin >> x;
-        if ( x >= k ){
+        if ( x > 0){
             cnt++;
             if (cnt > k && x != last){
                 cnt--;
                 break;
             }
+            last = x;
         }
             
 
